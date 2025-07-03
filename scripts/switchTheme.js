@@ -1,0 +1,1 @@
+activateTheme("light")
