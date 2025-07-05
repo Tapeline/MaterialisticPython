@@ -10,9 +10,8 @@
   "permissions": ["storage", "activeTab", "declarativeContent", "scripting"],
   "content_scripts": [
     {
-      "js": ["lib/jquery.js", "lib/codemirror.min.js", "lib/mode/clike.js",
-        "scripts/content.js", "scripts/switchTheme.js", "lib/materialize.min.js"],
-      "css": ["lib/materialize.min.css", "main.css", "lib/codemirror.min.css"],
+      "js": ["lib/jquery.js", "scripts/content.js", "scripts/switchTheme.js", "lib/materialize.min.js"],
+      "css": ["lib/materialize.min.css", "main.css"],
       "matches": [
         "https://docs.python.org/*"
       ]
